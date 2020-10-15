@@ -14,10 +14,17 @@ public class taro extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
         // Add your action code here.
         if( Greenfoot.isKeyDown( "down" ) ){
         setRotation(0);
         move(1);
 }
+=======
+        if( Greenfoot.isKeyDown( "right" ) ){
+        setRotation(0);
+        move(1);
+}// Add your action code here.
+>>>>>>> 7c4028928d1ccf076efc5508c9c22c37a7c2916e
     }    
 }
