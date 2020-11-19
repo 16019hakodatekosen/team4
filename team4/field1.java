@@ -16,11 +16,11 @@ public class field1 extends Actor
     {
         Actor actor = getOneIntersectingObject( demon.class );
         if( actor != null ){
-            // TARO とぶつかった時の処理を書く
+            // 鬼とぶつかった時の処理を書く
         }
         Actor actor = getOneIntersectingObject( human.class );
         if( actor != null ){
-            // TARO とぶつかった時の処理を書く
+            // 人 とぶつかった時の処理を書く
         }  // Add your action code here.
     }    
 }
