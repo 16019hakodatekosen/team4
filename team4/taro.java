@@ -24,7 +24,7 @@ public class taro extends Actor
         setRotation(90);
         move(1);
 }
-<<<<<<< HEAD
+
 
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
@@ -32,7 +32,7 @@ public class taro extends Actor
 }
  if( Greenfoot.isKeyDown( "left" ) ){
         setRotation(360);
-=======
+
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
         move(1);
@@ -40,13 +40,13 @@ public class taro extends Actor
 
         if( Greenfoot.isKeyDown( "left" ) ){
         setRotation(180);
->>>>>>> 04c1a159eff00b343e06e4e92373fc38d3171398
+
         move(1);
     }
     }   
     
 }
-}}
+}
 
 
    
