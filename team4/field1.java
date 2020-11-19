@@ -19,7 +19,6 @@ public class field1 extends Actor
         if( actor1 != null ){
             // TARO とぶつかった時の処理を書く
             // ピザ Actor の箱を作る
-// ピザ Actor の箱を作る
 Actor demon;
 // 自分（鬼）と接触しているfiledを取得する
 demon = getOneObjectAtOffset(0, 0, demon.class);
@@ -34,7 +33,7 @@ world = getWorld();
 world.removeObject(demon);
 }
 }
-        }
+        
         Actor actor2 = getOneIntersectingObject( human.class );
         
         if( actor2 != null ){
