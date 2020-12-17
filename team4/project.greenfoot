@@ -1,4 +1,5 @@
 #Greenfoot project file
+class.MyWorld.image=\u68EE.jpg
 class.demon.image=red_oni.png
 class.field1.image=Wall.jpg
 class.field2.image=recycpap.jpg

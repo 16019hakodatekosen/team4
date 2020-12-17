@@ -42,6 +42,7 @@ public class field1 extends Actor
             world = getWorld();
             // ワールドから（接触している）ピザを削除する
             world.removeObject(human);
+            Greenfoot.stop();
         }  // Add your action code here.
     }    
 }
