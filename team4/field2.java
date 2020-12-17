@@ -12,6 +12,11 @@ public class field2 extends Actor
      * Act - do whatever the field2 wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    public field2()
+    {
+        getImage().scale( 75, 75 );
+    }
     public void act() 
     {
         Actor demon2;
