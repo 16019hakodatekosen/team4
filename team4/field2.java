@@ -30,6 +30,7 @@ public class field2 extends Actor
             world = getWorld();
             // ワールドから（接触している）ピザを削除する
             world.removeObject(demon2);
+            Greenfoot.stop();
         }
         Actor human2;
         // 自分（鬼）と接触しているfiledを取得する
