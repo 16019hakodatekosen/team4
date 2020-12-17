@@ -14,6 +14,12 @@ public class human extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        if (Greenfoot.mouseDragged(this))
+        {
+    MouseInfo mouse = Greenfoot.getMouseInfo();
+    setLocation(mouse.getX(), mouse.getY());
+}
+// locking onto selection (or not)
+
     }    
 }
