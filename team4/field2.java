@@ -43,6 +43,7 @@ public class field2 extends Actor
             world = getWorld();
             // ワールドから（接触している）ピザを削除する
             world.removeObject(human2);
+            MyWorld.score++;
         }  // Add your action code here.
     }    
 }
