@@ -22,6 +22,8 @@ public class field1 extends Actor
         Actor demon;
         // 自分（鬼）と接触しているfiledを取得する
         demon = getOneObjectAtOffset(0, 0, demon.class);
+        
+        
         if (demon != null){
             // （接触している）鬼があるならば、、、
             // ワールドの箱を作る
@@ -30,6 +32,10 @@ public class field1 extends Actor
             world = getWorld();
             // ワールドから（接触している）ピザを削除する
             world.removeObject(demon);
+            
+            MyWorld.score++;
+            
+            
         }
         Actor human;
         // 自分（鬼）と接触しているfiledを取得する
