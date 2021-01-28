@@ -30,6 +30,7 @@ public class field2 extends Actor
             world = getWorld();
             // ワールドから（接触している）ピザを削除する
             world.removeObject(demon2);
+            getWorld().showText("GAMEOVER",300,200);
             Greenfoot.stop();
         }
         Actor human2;
@@ -43,6 +44,7 @@ public class field2 extends Actor
             world = getWorld();
             // ワールドから（接触している）ピザを削除する
             world.removeObject(human2);
+            MyWorld.score++;
         }  // Add your action code here.
     }    
 }
